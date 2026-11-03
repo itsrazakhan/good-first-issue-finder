@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Discover beginner-friendly GitHub issues and make your first open-source contribution.">
+
+    <title>Good First Issue Finder</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">G</span>
+            <span>GoodFirst<span class="logo-highlight">Issue</span></span>
+        </a>
+
+        <span class="header-badge">
+            Open Source Made Easy
+        </span>
+
+    </header>
+
+
+    <!-- MAIN -->
+
+    <main>
+
+        <!-- HERO SECTION -->
+
+        <section class="hero">
+
+            <span class="hero-tag">
+                <span class="hero-dot"></span>
+                YOUR OPEN SOURCE JOURNEY STARTS HERE
+            </span>
+
+            <h1>
+                Find your first
+                <span>Open Source</span>
+                contribution.
+            </h1>
+
+            <p class="hero-description">
+                Discover beginner-friendly GitHub issues,
+                explore exciting projects, and start
+                contributing to the open-source community.
+            </p>
+
+        </section>
+
+
+        <!-- SEARCH SECTION -->
+
+        <section class="search-section">
+
+            <div class="search-heading">
+
+                <div>
+                    <h2>Find your first issue</h2>
+
+                    <p>
+                        Choose your preferred technology
+                        and discover opportunities.
+                    </p>
+                </div>
+
+                <div class="search-icon">⌕</div>
+
+            </div>
+
+
+            <div class="search-controls">
+
+                <div class="form-group">
+
+                    <label for="language">
+                        Programming Language
+                    </label>
+
+                    <select id="language">
+
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="TypeScript">TypeScript</option>
+                        <option value="Java">Java</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="C#">C#</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Ruby">Ruby</option>
+                        <option value="Go">Go</option>
+                        <option value="Rust">Rust</option>
+                        <option value="Swift">Swift</option>
+                        <option value="Kotlin">Kotlin</option>
+                        <option value="Dart">Dart</option>
+                        <option value="R">R</option>
+                        <option value="Shell">Shell</option>
+                        <option value="PowerShell">PowerShell</option>
+                        <option value="Scala">Scala</option>
+                        <option value="Perl">Perl</option>
+                        <option value="Lua">Lua</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Objective-C">Objective-C</option>
+                        <option value="Haskell">Haskell</option>
+                        <option value="Elixir">Elixir</option>
+                        <option value="Clojure">Clojure</option>
+                        <option value="Jupyter Notebook">Jupyter Notebook</option>
+                        <option value="Makefile">Makefile</option>
+                        <option value="Dockerfile">Dockerfile</option>
+                        <option value="Vue">Vue</option>
+                    </select>
+
+                </div>
+
+
+                <button id="searchBtn" type="button">
+                    <span>Search Issues</span>
+                    <span class="button-arrow">→</span>
+                </button>
+
+            </div>
+
+            <p class="search-note">
+                Powered by GitHub REST API · Free to explore
+            </p>
+
+        </section>
+
+
+        <!-- RESULTS SECTION -->
+
+        <section class="results-section">
+
+            <div class="results-heading">
+
+                <div>
+                    <h2>Explore opportunities</h2>
+
+                    <p>
+                        Beginner-friendly issues waiting for contributors.
+                    </p>
+                </div>
+
+                <span class="results-count" id="resultCount">
+                    0 Issues
+                </span>
+
+            </div>
+
+
+            <!-- JAVASCRIPT WILL GENERATE ISSUE CARDS HERE -->
+
+            <div id="results">
+
+                <div class="empty-state">
+
+                    <div class="empty-icon">⌕</div>
+
+                    <h3>Ready to find your first issue?</h3>
+
+                    <p>
+                        Select a programming language above
+                        and click Search Issues to discover
+                        open-source opportunities.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <p>
+            Built with ❤️ for the open-source community.
+        </p>
+
+        <p>
+            Powered by
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                GitHub
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
